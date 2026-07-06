@@ -13,8 +13,8 @@ class Main {
        String name = "Aman";
        int age = 30;
 
-       String neighbour = "Akku";
-       String friend = neighbour;
+       String neighbor = "Akku";
+       String friend = neighbor;
    }
 }
 
