@@ -49,7 +49,6 @@ class FirstClass {
         System.out.print(firstName);
 
         
-        sc.close();
         
     }
 }
