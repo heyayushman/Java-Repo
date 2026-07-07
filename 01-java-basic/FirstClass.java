@@ -44,9 +44,11 @@ class FirstClass {
 
         //? **********************************User Input ************************************
         Scanner sc = new Scanner(System.in);
-        String firstName = sc.next();
+        // String firstName = sc.next(); // only takes a single word
+        String Name = sc.nextLine(); // nextLine() takes whole sentence
 
-        System.out.print(firstName);
+        // System.out.print(firstName);
+        System.out.print(Name);
 
         
         
