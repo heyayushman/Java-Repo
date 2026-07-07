@@ -1,10 +1,10 @@
 class FirstClass {
     public static void main(String args[]) {
-        // String name = "John Doe";
+        String name = "John Doe";
         int age = 25;
         // Float height = 5.9f;
         // Character initial = 'J';
-        // System.out.println("Hello, " + name + "! Welcome to Java programming.");
+        System.out.println("Hello, " + name + "! Welcome to Java programming.");
         System.out.println("You are " + age + " years old.");
         // System.out.println("Your height is " + height + " feet.");
         // System.out.println("Your initial is " + initial + ".");
@@ -26,6 +26,11 @@ class FirstClass {
 
         int sum = a + b;
         System.out.println("Sum = " + sum);
+
+
+        name = "Tony Stark";
+
+        System.out.println(name);
         
         
     }
