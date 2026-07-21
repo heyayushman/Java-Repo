@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 public class Student{
@@ -7,7 +8,7 @@ public class Student{
         System.out.print("Enter student name: ");
         String name = sc.nextLine();
         
-        System.out.print("Enter student USN: ");
+        System.out.print("Enter student registration number: ");
         int usn = sc.nextInt();
         
         System.out.print("Enter student age: ");
@@ -19,7 +20,7 @@ public class Student{
         System.out.println("Student Details");
 
         System.out.println("Student Name: " + name);
-        System.out.println("Student USN: " + usn);
+        System.out.println("Student Reg No: " + usn);
         System.out.println("Student Age: " + age);
         System.out.println("Student Course: " + course);
 
